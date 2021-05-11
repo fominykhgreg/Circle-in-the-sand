@@ -1,0 +1,244 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 1140px;
+margin: 0 auto;
+}
+
+
+body {
+  font-family: sans-serif;
+
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;
+}
+
+h1 {
+
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+textarea {
+	border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+input[type=button] {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.content {
+    border: 2px solid #ff3636;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.wrap {
+         width: 310px;/*фиксируем ширину обертки*/
+         margin-left: 580px;
+         background: darkgray;
+         height: 120px;/*Задаем высоту обертки*/
+        }
+.header  {
+    float: center; /*Задаем обтекание*/
+    line-height: 120px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 30px;
+    background: dodgerblue;
+    color: white;
+    width: 320px; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали
+    border: 1px solid #a1ea42;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;*/
+
+}
+.img {
+    text-align: center;
+}
+
+.main_center {
+    width: 558px;
+    text-align: center;
+    margin: auto;
+    margin-top: 11px;
+    margin-bottom: -2px;
+    border: 2px solid purple;
+}
+.cont_cont  {
+
+    border: 1px solid #00f0ff;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.cont_title_mid{
+    text-align: center;
+}
+.main_center_addres {
+    width: 1200px;
+    margin: auto;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_center_content_data {
+    border: 2px solid rgb(6, 99, 11);
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 80px;
+    box-sizing: border-box;
+    flex: 1 1 50%;
+}
+
+.h1 {
+    background-color: #54fffd;
+}
+
+.h3 {
+    background-color: #ccc;
+}
+.h1_title  {
+    border: 2px solid #36eeff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 600px;
+}
+.p_title {
+    background-color: #54fffd;
+    text-align: center;
+}
+
+.title_1 {
+    border: 2px solid #b800a9;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.page_color_2 {
+    border: 2px solid #4273ff;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.page_color_3 {
+    border: 2px solid #84ff00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page_color_4 {
+    border: 2px solid #9100a2;
+    margin-right: 1120px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page_color_set {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.page_color_title {
+    background-color: #00a8ff;
+    border: 2px solid #ff0000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.page_color_5 {
+    background-color: #00a8ff;
+    border: 2px solid #ff0000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.page_color_6 {
+
+    border: 4px solid #ffffff;
+}
+
+.page_color_7 {
+
+    border: 2px solid #2aff00;
+    background-color: #00a8ff;
+
+}
+
+.page_color_8 {
+
+    border: 2px solid #a7a7a7;
+    background-color: #00a8ff;
+}
+
+.page_color_9 {
+
+    border: 2px solid #a7a7a7;
+    background-color: #ccc;
+}
+
+.page_color_end {
+
+
+    background-color: #00a8ff;
+    margin-left: 20px;
+}
